@@ -16,7 +16,7 @@ if uploaded_file is not None:
 
     # Make POST request to Flask API
     files = {'file': uploaded_file.getvalue()}
-    response = requests.post('https://peoplecrowdcounting/predict/', files=files)
+    response = requests.post('https://farheensyed05-peoplecrowdcounting-streamlit.app/predict/', files=files)
 
     if response.status_code == 200:
         data = response.json()
