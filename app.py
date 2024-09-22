@@ -4,12 +4,13 @@ import matplotlib.pyplot as plt
 import torch
 from io import BytesIO
 import base64
+from flask_cors import CORS
 from load_model import load_the_model
 from utils import preprocess_image
 import os
 
 app = Flask(__name__)
-
+CORS(app)
 # Load the trained model
 trained_model_path = r'G:\People_Crowd_Counting\models\first_model.pth'
 model = load_the_model(trained_model_path)
