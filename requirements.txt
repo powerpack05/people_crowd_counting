@@ -1,9 +1,6 @@
-flask
+Flask
 matplotlib
 torch
 streamlit
-pillow
-base64
-io
-os
+Pillow
 requests
