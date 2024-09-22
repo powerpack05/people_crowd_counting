@@ -12,7 +12,7 @@ import os
 app = Flask(__name__)
 CORS(app)
 # Load the trained model
-trained_model_path = r'G:\People_Crowd_Counting\models\first_model.pth'
+trained_model_path = r'models\first_model.pth'
 model = load_the_model(trained_model_path)
 model.eval()
 
