@@ -7,8 +7,8 @@ The system uses deep learning models to count the number of individuals in an im
 
 # Dataset
 ## ShanghaiTechDataset - Part_B
-# train - 400
-# test - 316
+train - 400
+test - 316
 
 
 
